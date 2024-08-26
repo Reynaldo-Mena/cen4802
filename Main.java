@@ -1,10 +1,12 @@
 public class Main {
-
+    
+    // Main method calls fibonacci method and prints the result
     public static void main(String[] args) {
         int n = 10;
         int result = fibonacci(n);
         System.out.println("The " + n + "th term of the Fibonacci sequence is " + result + ".");
     }
+
 
     /**
      * Gets the nth number in the fibonacci sequence using recursive method.
